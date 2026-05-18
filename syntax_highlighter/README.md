@@ -27,6 +27,7 @@ by Pablo Sedano A01785330
 | integer | `^\d+` |
 | string | `^"(\\.\|[^"\\])*"` | (regex literal: "(\\.\|[^"\\])*")
 | char | `^'(\\.\|[^'\\])'` | (regex literal: '(\\.|[^'\\])')
+| boolean | `^\b(true\|false)\b` | (regex literal: \b(true|false)\b) in this case it is taken from a list containing only true and false
 | keyword | from C++ keyword list taken from here [link](https://en.cppreference.com/cpp/keyword) |
 | identifier | `^[a-zA-Z_][a-zA-Z0-9_]*` |
 | operator | `^\+\|\-\|\*\|\/\|%\|=\|==\|!=\|<\|>\|<=\|>=\|\+\+\|\-\-\|\+=\|\-=\|\*=\|\/=\|%=` | (regex literal: \+|\-|\*|\/|%|=|==|!=|<|>|<=|>=|\+\+|\-\-|\+=|\-=|\*=|\/=|%=)
