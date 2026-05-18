@@ -16,6 +16,13 @@ by Pablo Sedano A01785330
 4. In the shell, execute `SyntaxHighlighter.do_syntax("test_files/test1.cpp")` to process the first test file, or `SyntaxHighlighter.do_syntax("test_files/test2.cpp")` for the second test file. Alternatively, you can add more test files in the `test_files` directory and process them similarly with `SyntaxHighlighter.do_syntax("test_files/<your_test_file.cpp>")`.
 5. The output will be saved as `output/output.html`. Open this file in a web browser to see the syntax-highlighted code.
 
+Example usage in the Elixir shell:
+```elixir
+iex> SyntaxHighlighter.do_syntax("test_files/test1.cpp")
+```
+
+([Example output](example_output/output_example.html)) <-- Click
+
 ---
 ## Token types/regex
 | Token type | Regex |
