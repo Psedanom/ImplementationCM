@@ -21,7 +21,7 @@ Example usage in the Elixir shell:
 iex> SyntaxHighlighter.do_syntax("test_files/test1.cpp")
 ```
 
-([Example output](example_output/output_example.html)) <-- Click
+([Example output](example_output/output_example.html)) ← Click
 
 ---
 ## Token types/regex
