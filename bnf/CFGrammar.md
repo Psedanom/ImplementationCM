@@ -111,7 +111,7 @@ end
 <funcion> ::= <def> <nombreFuncion>, do: <expresion>
             | <def> <nombreFuncion> do <expresiones> end
             | <def> <nombreFuncion> when <booleana>, do: <expresion>
-            |<def> <nombreFuncion> when <booleana> do <expresiones> end
+            | <def> <nombreFuncion> when <booleana> do <expresiones> end
 
 
 <nombreFuncion>::= <nF> | <nF> (<argumentos>)
@@ -125,7 +125,8 @@ end
 
 ```bash
 MODULE ::= 'defmodule' NOMBRE_MODULO 'do' {Funcion} 'end'
-FUNCION ::= ( 'def' | 'defp' ) NOMBRE_FUNCION ['('{ARGUMENTO}')'] ['when' (BOOLEANA)] ', do:' EXPRESION | ( 'def' | 'defp' ) NOMBRE_FUNCION ['('{ARGUMENTO}')'] ['when' (BOOLEANA)] 'do' {EXPRESION} 'end'
+FUNCION ::= ( 'def' | 'defp' ) NOMBRE_FUNCION ['('{ARGUMENTO}')'] ['when' (BOOLEANA)] ', do:' EXPRESION 
+          | ( 'def' | 'defp' ) NOMBRE_FUNCION ['('{ARGUMENTO}')'] ['when' (BOOLEANA)] 'do' {EXPRESION} 'end'
 
 ARGUMENTO ::= VARIABLE | VARIABLE '\\' ARGUMENTO
 ```
